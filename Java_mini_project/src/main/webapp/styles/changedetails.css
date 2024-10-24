@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    font-family: 'Arial', sans-serif; /* Clean, sans-serif font */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add some padding around the body */
+}
+
+h2 {
+    color: black; /* Theme color for headers */
+    margin: 10px 0; /* Add margin for spacing between elements */
+}
+
+hr {
+    width: 70%; /* Set width of horizontal lines */
+    margin: 20px auto; /* Center align and add margin */
+    border: 1px solid #28a745; /* Use theme color for the line */
+}
+
+.change-button {
+    background-color: #28a745; /* Theme color for the button */
+    color: white; /* White text for contrast */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size for button text */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-top: 20px; /* Margin above the button */
+}
+
+.change-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+

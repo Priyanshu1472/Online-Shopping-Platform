@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    background-color: #2c2f33; /* Dark background for contrast */
+    color: #ffffff; /* Light text color */
+    padding: 20px; /* Add padding to body */
+}
+
+h2 {
+    color: white; /* Color for the header */
+    text-align: center; /* Center align the header */
+    margin-bottom: 20px; /* Space below header */
+}
+
+.back {
+    color: white; /* White text color for the back link */
+    margin-left: 2.5%; /* Margin to the left */
+    font-size: 18px; /* Font size for back link */
+    text-decoration: none; /* Remove underline */
+}
+
+.back:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.input-style {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #444; /* Border for input fields */
+    border-radius: 4px; /* Slightly rounded corners */
+    background-color: #ffffff; /* Darker background for inputs */
+    color: #3e4144; /* White text color for inputs */
+    font-size: 16px; /* Font size for inputs */
+}
+
+.input-style:focus {
+    border-color: #28a745; /* Green border on focus */
+    outline: none; /* Remove outline */
+}
+
+.left-div, .right-div {
+    margin-bottom: 20px; /* Space below each div */
+}
+
+h3 {
+    color: #28a745; /* Green color for headings */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+.button {
+    background-color: #28a745; /* Green background for buttons */
+    color: white; /* White text color for buttons */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for buttons */
+    border-radius: 4px; /* Rounded corners for buttons */
+    font-size: 16px; /* Font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+hr {
+    border: 1px solid #444; /* Border for horizontal rules */
+    margin: 10px 0; /* Space above and below hr */
+}
+
+form {
+    background-color: #3e4144; /* Background for the form */
+    padding: 20px; /* Padding for the form */
+    border-radius: 5px; /* Rounded corners for the form */
+}

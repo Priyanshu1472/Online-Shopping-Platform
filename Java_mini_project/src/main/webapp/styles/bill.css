@@ -1,0 +1,131 @@
+/* bill.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+h1 {
+	color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+	color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.left-div, .right-div, .right-div-right {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.left-div {
+    text-align: left;
+}
+
+.right-div, .right-div-right {
+    text-align: right;
+}
+
+#customers {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#customers th, #customers td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#customers th {
+    background-color: #28a745; /* Updated color */
+    color: white;
+    font-size: 18px;
+}
+
+#customers tbody tr {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+#customers tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.button {
+    background-color: #28a745; /* Updated color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #218838; /* Darker shade for hover effect */
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .left-div, .right-div, .right-div-right {
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+
+    #customers th, #customers td {
+        font-size: 14px;
+    }
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#ccc;
+   color:black;
+   text-align: center;
+}
+
+.h2222 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
